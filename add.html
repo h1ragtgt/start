@@ -46,12 +46,24 @@ $(function($){
 	<div id="main">
 				<h2 id="sample">作ったもの</h2>
 				<h3>イラレ</h3>
-<p>課題の切手</p>
+				<!-- 折りたたみ展開ボタン -->
+<div onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
+<a style="cursor:pointer;">▼ 課題の切手</a>
+</div>
+<!--// 折りたたみ展開ボタン -->
+  
+<!-- ここから先を折りたたむ -->
+<div id="menu1" style="display:none;clear:both;">
+ 
+<!--この部分が折りたたまれ、展開ボタンをクリックすることで展開します。-->
 				<p class="resizeimage">
-   <img src="images/kadai.jpg" alt="切手"><p>反省点。スパイラルツールを使用するのを完全に忘れてしまった。なので、こんな感じになったし時間がかかった。
+   <img src="images/kadai.jpg" alt="切手"><p>下が見本で上が自分の。3時間。反省点。スパイラルツールを使用するのを完全に忘れてしまった。なので、こんな感じになったし時間がかかった。
 	winで慣れすぎるより、macのがいいんだろうけど、もっと練習したい。
 		色使いも下手だからもっとお題の色を色相検索すればよかったかも。あと、画像をもっと登録するようなら、投稿フォームを作りたい。いちいち書いてくのめんどいし。
 		</p>
+</div>
+<!--// ここまでを折りたたむ -->
+
 				<h3>htmlのよく使いそうなコード</h3>
 		<!-- 折りたたみ展開ボタン -->
 <div onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
