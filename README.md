@@ -1,11 +1,15 @@
 # start
-適当に書いておく
+適当なメモ
 
-使える奴
+gitで使える奴
 css
 html
 javascript
 
-他言語使える？
-python
-ruby
+
+動的なサーバ系とかは無理っぽい
+
+python　仮想
+php　ザンプ
+
+rubyは使わないからいい
