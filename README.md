@@ -2,6 +2,7 @@
 
 環境メモ（git）
 jQuery v1.11.0
+DOCTYPE html
 
 環境メモ（ザンプデスク）
 jQuery v3.2.1
